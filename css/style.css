@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  background-image: url(../img/vecteezy_watercolor-artistic-painted-invitation-colorful-abstract_24662417.jpg);
+  background-color: #d9d9d9;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.container-2 {
+  /* background-image: url(../img/1412221784.jpg); */
+  background-color: #ffffffb0;
+  backdrop-filter: blur(5px);
+  min-height: 100vh;
+  width: 550px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+header .pembungkus-nama {
+  background-color: #0b7b6e44;
+  border-radius: 96px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(15px);
+  margin-top: 68px;
+  width: 445px;
+  height: 53px;
+  overflow: hidden;
+}
+
+header .pembungkus-nama .nama {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.profile {
+  display: flex;
+  margin: auto;
+  height: 174px;
+  width: 175px;
+  margin-top: 41px;
+  border-radius: 91px;
+  background-image: url(../img/Pasfoto.jpg);
+  background-size: cover;
+}
+
+nav {
+  margin-top: 52px;
+  display: flex;
+  justify-content: center;
+}
+
+nav .links {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+nav a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #beddd8;
+  width: 344px;
+  height: 55px;
+  margin-bottom: 2rem;
+  color: #fff;
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+}
+
+nav a:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+}
+
+nav a:last-child {
+  margin-bottom: 0;
+}
+
+nav a p {
+  background-color: #beddd8;
+  z-index: 2;
+}
+
+nav a .logo-web {
+  background-image: url(../img/Logo/globe.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: -20px;
+  transition: 1s;
+  width: 20px;
+  height: 20px;
+}
+
+nav a:hover .logo-web {
+  margin-right: 5px;
+  transition: 1s;
+}
+
+nav a .logo-port {
+  background-image: url(../img/Logo/pen-tool.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: -20px;
+  transition: 1s;
+  width: 20px;
+  height: 20px;
+}
+
+nav a:hover .logo-port {
+  margin-right: 5px;
+  transition: 1s;
+}
+
+nav a .logo-github {
+  background-image: url(../img/Logo/github.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: -20px;
+  transition: 1s;
+  width: 20px;
+  height: 20px;
+}
+
+nav a:hover .logo-github {
+  margin-right: 5px;
+  transition: 1s;
+}
+
+nav a .logo-ig {
+  background-image: url(../img/Logo/instagram.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: -20px;
+  transition: 1s;
+  width: 20px;
+  height: 20px;
+}
+
+nav a:hover .logo-ig {
+  margin-right: 5px;
+  transition: 1s;
+}
+
+nav a .logo-linkedin {
+  background-image: url(../img/Logo/linkedin.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: -20px;
+  transition: 1s;
+  width: 20px;
+  height: 20px;
+  /* background-color: #0077b5; */
+}
+
+nav a:hover .logo-linkedin {
+  margin-right: 5px;
+  transition: 1s;
+}
+
+footer {
+  /* background-color: aqua; */
+  justify-content: center;
+  margin: 3rem auto;
+  align-items: center;
+}
+
+footer .kredit {
+  text-align: center;
+}
+
+/* media kueri */
+
+@media (max-width: 578px) {
+  .container-2 {
+    width: 100%;
+  }
+
+  nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #beddd8;
+    width: 344px;
+    height: 55px;
+    margin-bottom: 2rem;
+    color: #fff;
+  }
+
+  nav a:hover {
+    transform: none;
+  }
+
+  nav a p {
+    background-color: #beddd8;
+    z-index: 2;
+  }
+
+  nav a .logo-web {
+    background-image: url(../img/Logo/globe.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+  }
+
+  nav a .logo-port {
+    background-image: url(../img/Logo/pen-tool.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+  }
+
+  nav a .logo-github {
+    background-image: url(../img/Logo/github.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+  }
+
+  nav a .logo-ig {
+    background-image: url(../img/Logo/instagram.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+  }
+
+  nav a .logo-linkedin {
+    background-image: url(../img/Logo/linkedin.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    /* background-color: #0077b5; */
+  }
+}
