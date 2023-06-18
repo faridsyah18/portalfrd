@@ -29,26 +29,27 @@ header {
   justify-content: center;
 }
 
-header .pembungkus-nama {
+header .pembungkus-welcome {
   background-color: #0b7b6e44;
   border-radius: 96px;
   display: flex;
   justify-content: center;
   align-items: center;
   backdrop-filter: blur(15px);
-  margin-top: 68px;
+  margin-top: 60px;
   width: 445px;
   height: 53px;
   overflow: hidden;
 }
 
-header .pembungkus-nama .nama {
+header .pembungkus-welcome .welcome {
   font-size: 24px;
   color: #fff;
   font-weight: 700;
+  letter-spacing: 1rem;
 }
 
-.profile {
+.foto {
   display: flex;
   margin: auto;
   height: 174px;
@@ -57,6 +58,20 @@ header .pembungkus-nama .nama {
   border-radius: 91px;
   background-image: url(../img/Pasfoto.jpg);
   background-size: cover;
+}
+
+.nama {
+  /* background-color: aqua; */
+  margin-top: 23px;
+}
+
+.nama h1 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.roles p {
+  text-align: center;
 }
 
 nav {
@@ -188,23 +203,24 @@ footer .kredit {
 /* media kueri */
 
 @media (max-width: 578px) {
-  header .pembungkus-nama {
+  header .pembungkus-welcome {
     background-color: #0b7b6e44;
     border-radius: 96px;
     display: flex;
     justify-content: center;
     align-items: center;
     backdrop-filter: blur(15px);
-    margin-top: 68px;
+    margin-top: 60px;
     width: 90%;
     height: 50px;
     overflow: hidden;
   }
 
-  header .pembungkus-nama .nama {
+  header .pembungkus-welcome .welcome {
     font-size: 20px;
     color: #fff;
     font-weight: 700;
+    letter-spacing: 1rem;
   }
 
   .container-2 {
