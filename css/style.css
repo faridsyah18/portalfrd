@@ -188,6 +188,25 @@ footer .kredit {
 /* media kueri */
 
 @media (max-width: 578px) {
+  header .pembungkus-nama {
+    background-color: #0b7b6e44;
+    border-radius: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(15px);
+    margin-top: 68px;
+    width: 90%;
+    height: 50px;
+    overflow: hidden;
+  }
+
+  header .pembungkus-nama .nama {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+  }
+
   .container-2 {
     width: 100%;
   }
@@ -197,7 +216,7 @@ footer .kredit {
     justify-content: center;
     align-items: center;
     background-color: #beddd8;
-    width: 344px;
+    width: 300px;
     height: 55px;
     margin-bottom: 2rem;
     color: #fff;
