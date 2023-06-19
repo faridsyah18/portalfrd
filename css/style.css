@@ -204,6 +204,11 @@ footer .kredit {
 /* media kueri */
 
 @media (max-width: 578px) {
+  header {
+    top: 0;
+    position: sticky;
+  }
+
   header .pembungkus-welcome {
     background-color: #0b7b6e44;
     border-radius: 96px;
